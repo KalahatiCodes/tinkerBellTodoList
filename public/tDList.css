@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Hello Yasmin Script Font;
+    src: url(helloyasminscript-font/Helloyasmin-MVvVr.ttf)
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(155, 56, 67);
+    background-color: rgb(160, 174, 157, 0.7);
+    padding: 0 100px;
+}
+header{
+    border-bottom: 2px solid rgb(39, 35, 70);
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    margin: 50px;
+}
+.logoHead, ul {
+    margin: 20px;
+    padding-bottom: 15px;
+}
+.logoHead li a, li a{
+    font-family: Hello Yasmin Script Font;
+    color: rgb(99, 40, 76);
+}
+#todoList {
+    margin: 20px 300px;
+}
+#todoList li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+h1, form, p, #clear, #inputItem{
+    text-align: center;
+}
+
+#inputItem {
+    padding: 10px;
+    font-size: 20px;
+    background-color: #FDA96B;
+    color: white;
+}
+
+.remove {
+    margin: 10px;
+    padding: 5px;
+}
+p{
+    font-size: 20px;
+}
+
+ul{
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap:10%;
+    
+  }
+  
+  li a, li{
+    flex-direction:row;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+  }
+
+ main {
+    text-align: center;
+    align-items: center;
+  }
+
+  .pageHeader{
+      font-size: 40px;
+      margin-bottom: 20px;
+  }
+
+.homeMessage {
+    color:rgb(175, 238, 205) ;
+  }
+.quoteotd{
+    margin: 50px 200px 0px 200px;
+}
+#tink{
+    margin: 50px 0 200px 0;
+}
+#fill, button{
+    background-color: white;
+    padding: 10px;
+}

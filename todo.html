@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="todoList/css/tDList.css">
+    <link rel="stylesheet" href="todoList/css/reset.css">
+    <title>ToDo List</title>
+    
+</head>
+
+<body>
+    <header>
+        <div>
+            <nav>
+                <ul class="logoHead">
+                    <li class="logo"><a href=home.html>Spark Day Tracker</a></li>
+                    <li><a href=todo.html>Todo List</a></li>
+                    <li><a href="reflection.html">Reflection</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <h1 class="pageHeader">What Do I Need To Do Today?</h1>
+    <form action="">
+        <input id="inputItem" type="text" placeholder="Enter To Do">
+        <button id="addBtn">Add To List</button>
+    </form>
+    <ul id="todoList"></ul>
+    <!-- <p id="remainingTasks"></p> -->
+    <!-- <p><strong>Click Check Mark To Complete and Remove Item</strong></p> -->
+    <div id="clear">
+        <button id="clearList">Clear List</button>
+        <p><strong>Click Check Mark To Complete and Remove Item</strong></p>
+    </div>
+    <script src="todoList/js/tDList.js"></script>
+</body>
+</html>
